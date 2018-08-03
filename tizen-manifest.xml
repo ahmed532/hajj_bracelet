@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.hajj_brc" version="1.0.0">
+    <profile name="wearable"/>
+    <ui-application appid="org.example.hajj_brc" exec="hajj_brc" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>hajj_brc</label>
+        <icon>hajj_brc.png</icon>
+        <metadata key="http://tizen.org/metadata/nfc_cardemulation" value="/shared/res/hello.xml"/>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/nfc.cardemulation</privilege>
+        <privilege>http://tizen.org/privilege/nfc</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/network.nfc">true</feature>
+    <feature name="http://tizen.org/feature/network.nfc.card_emulation">true</feature>
+</manifest>

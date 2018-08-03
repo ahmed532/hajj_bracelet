@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application name="org.tizen.basicuiapplication">
+   <hello>
+      <aid-group category="fun">
+         <aid aid="325041592E5359532E4444463031"
+              se_type="hce" unlock="false" power="sleep"/>
+      </aid-group>
+   </hello>
+</application>

@@ -1,0 +1,5 @@
+build main_build: phony hajj_brc
+build all: phony main_build
+default all
+edje-cc-dep-options = -deps $out.d
+binaryName = hajj_brc
